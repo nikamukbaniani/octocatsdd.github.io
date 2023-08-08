@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+     <div class="container">
+        <div class="calculator">
+            <form>
+                <div >
+                    <input class="display" type="text" placeholder="0">  
+                </div> 
+                <!-- <div>
+                    <input type="text" class="">
+                </div> -->
+                <div class="images">
+                    <img src="./assets/images/time.png" alt="">
+                    <img src="./assets/images/back.png" alt="">
+                </div>
+                <div class="buttons">
+                    <input class="button" onclick="show()"  id="first-child" type="button" value="C">
+                    <input  class="button" onclick="show('()')" type="button" value="()">
+                  
+                    <input class="button" onclick="show('%')" type="button" value="%">
+                    <input  class="button" onclick="show('/')" type ="button" value="/">
+
+                </div>
+                <div class="buttons">
+                    <input class="button" onclick="show('7')" type="button" value="7">
+                    <input class="button" onclick="show('8')" type="button" value="8">
+                    <input  class="button" onclick="show('9')" type="button" value="9">
+                    <input class="button"  onclick="show('*')"type="button" value="*">
+
+
+                </div>
+                <div class="buttons">
+                    <input class="button"onclick="show('4')" type="button" value="4">
+                    <input class="button" onclick="show('5')" type="button" value="5">
+                    <input class="button"  onclick="show('6')" type="button" value="6">
+                    <input class="button"  onclick="show('+')"type="button" value="+">
+                </div>
+                <div class="buttons">
+                    <input class="button" onclick="show('1')" type="button" value="1">
+                    <input class="button" onclick="show('2')" type="button" value="2">
+                    <input class="button" onclick="show('3')" type="button" value="3">
+                    <input class="button"  onclick="show('-')" type="button" value="-">
+                </div>
+                <div class="buttons">
+                    <input class="button"  onclick="show('+/-')"type="button" value="+/-">
+                    <input  class="button" onclick="show('0')" type="button" value="0">
+                    <input  class="button" onclick="show('.')" type="button" value=".">
+                    <input  class="button" onclick="show('=')" id="last-child" type="button" value="=" >
+                </div>
+
+            
+            </form>
+        </div>
+    
+    
+    </div>
+<body>
+    
+</body>
+</html>
